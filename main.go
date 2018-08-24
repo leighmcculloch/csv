@@ -4,9 +4,9 @@ import (
 	"encoding/csv"
 	"flag"
 	"fmt"
-	"html/template"
 	"io"
 	"os"
+	"text/template"
 )
 
 var version = "<not set>"
