@@ -1,4 +1,4 @@
-package main // import "4d63.com/dnsovertlsproxy"
+package main // import "4d63.com/csv"
 
 import (
 	"encoding/csv"
