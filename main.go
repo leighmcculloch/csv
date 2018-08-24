@@ -17,7 +17,7 @@ func main() {
 	flagFile := flag.String("f", "", "csv file")
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, "csv extracts columns from a CSV file using Go templates.\n")
-		fmt.Fprintf(os.Stderr, "Usage: csv -f=file.csv '{{index . 3}}'\n\n")
+		fmt.Fprintf(os.Stderr, "Usage: csv -f=file.csv '{{index . 3}}'\n")
 		fmt.Fprintf(os.Stderr, "       cat file.csv | csv '{{index . 3}}'\n\n")
 		flag.PrintDefaults()
 	}
